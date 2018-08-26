@@ -1,4 +1,6 @@
 
+### [股价形态](http://wiki.mbalib.com/wiki/Category:%E8%82%A1%E4%BB%B7%E5%9E%8B%E6%80%81)
+
 扩散型顶部
 杯柄形态
 双重顶/双重底形态
