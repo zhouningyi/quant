@@ -13,7 +13,7 @@
 
 #### [抛物线指标（停损点转向, SAR, Stop and Reveres)](http://wiki.mbalib.com/wiki/%E6%8A%9B%E7%89%A9%E7%BA%BF%E8%BD%AC%E5%90%91)
 
-#### 指数平滑移动平均线(MACD)
+#### [指数平滑移动平均线(MACD)](http://wiki.mbalib.com/wiki/MACD%E6%9F%B1%E7%8A%B6%E5%9B%BE)
 由一快及一慢指数移动平均（EMA）之间的差计算出来，最常用的是12及26日EMA
 
 1.计算平滑系数
