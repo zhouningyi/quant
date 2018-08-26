@@ -1,15 +1,15 @@
 
-### [平均类指标](http://wiki.mbalib.com/wiki/Category:%E5%B9%B3%E5%9D%87%E6%8C%87%E6%A0%87)
+### A [平均类指标](http://wiki.mbalib.com/wiki/Category:%E5%B9%B3%E5%9D%87%E6%8C%87%E6%A0%87)
 
 
-### 支撑和阻挡类指标
+### B 支撑和阻挡类指标
 [斐波那契回调](https://zh.wikipedia.org/wiki/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%9B%9E%E8%B0%83)
 
 转折点(PP)
 顶部
 
 
-### 市场趋势类指标
+### C 市场趋势类指标
 平均趋向指数(A.D.X.)
 顺势指标(CCI)
 非趋势价格指标(DPO)
@@ -24,13 +24,13 @@
 三重指数平滑移动平均线
 Vortex指标 (VI)
 
-### 动量类指标
+### D 动量类指标
 
-#### 1.[动量指标(Momentom Index)](http://wiki.mbalib.com/wiki/%E5%8A%A8%E9%87%8F%E6%8C%87%E6%A0%87)
+#### [1.动量指标(Momentom Index)](http://wiki.mbalib.com/wiki/%E5%8A%A8%E9%87%8F%E6%8C%87%E6%A0%87)
 MTM＝C－Cn
 其中：C为当日收市价，Cn为N日前收市价，N为设定参数，一般选设10日，亦可在6日至14日之间选择。
 
-#### 2.[能量潮(OBV)](https://baike.baidu.com/item/%E8%83%BD%E9%87%8F%E6%BD%AE/10168521?fromtitle=OBV&fromid=3635727)
+#### [2.能量潮(OBV)](https://baike.baidu.com/item/%E8%83%BD%E9%87%8F%E6%BD%AE/10168521?fromtitle=OBV&fromid=3635727)
 能量潮是将成交量数量化，制成趋势线，配合股价趋势线，不过模型有点简单
 以某日为基期，逐日累计每日上市股票总成交量，若隔日指数或股票上涨，则基期OBV加上本日成交量为本日OBV。隔日指数或股票下跌，则基期OBV减去本日成交量为本日OBV。一般来说，只是观察OBV的升降并无多大意义，必须配合K线图的走势才有实际的效用。
 经常被用于股市研判的是日OBV指标和周OBV指标
@@ -72,21 +72,21 @@ RSI＝[上升平均数÷(上升平均数＋下跌平均数)]×100
 ### 交易量类指标
 累积/派发线、简易波动指标(EMV)、强力指数(FI)、负交易量指数(NVI)、能量潮(OBV)、卖权-买权比率(PCR)、量价曲线 (VPT)
 
-### 波动性类指标
+### E 波动性类指标
 
-#### [布林带(BB, BOLL, Bolinger Bands)](http://wiki.mbalib.com/wiki/%E5%B8%83%E6%9E%97%E7%BA%BF%E6%8C%87%E6%A0%87)
+#### [1. 布林带(BB, BOLL, Bolinger Bands)](http://wiki.mbalib.com/wiki/%E5%B8%83%E6%9E%97%E7%BA%BF%E6%8C%87%E6%A0%87)
 中轨线=N日的移动平均线
 上轨线=中轨线＋k倍的标准差
 下轨线=中轨线－k倍的标准差,
 其中k通常为2
-##### [多空布林线（BBIBOLL）](http://wiki.mbalib.com/wiki/%E5%A4%9A%E7%A9%BA%E5%B8%83%E6%9E%97%E7%BA%BF)
+##### [1.1 多空布林线（BBIBOLL）](http://wiki.mbalib.com/wiki/%E5%A4%9A%E7%A9%BA%E5%B8%83%E6%9E%97%E7%BA%BF)
 多空布林线是以多空线为中心线，多空线的标准差为带宽的轨道线。UPR线为压力线,对股价有压制作用，DWN线为支撑线,对股价具有支撑作用，BBIBOLL线为中轴线。
 　1. BBIBOLL=（3日简单移动平均价+6日简单移动平均价+12日简单移动平均价+24日简单移动平均价)/4
   2. UPR=BBIBOLL+M*BBIBOLL的N日估算标准差
   3. DWN=BBIBOLL-M*BBIBOLL的N日估算标准差
   4. 参数N=11，M=6
 
-##### [布林极限（%BB）](http://wiki.mbalib.com/wiki/%E5%B8%83%E6%9E%97%E6%9E%81%E9%99%90)
+##### [1.2 布林极限（%BB）](http://wiki.mbalib.com/wiki/%E5%B8%83%E6%9E%97%E6%9E%81%E9%99%90)
 布林极限（%BB）由布林线衍生而来的，辅助布林线研判买卖信号的可靠性。
   1. ％BB=（close-lower band）÷（upper band-lower band）
   2. Band width=（upper band-lower band）÷average(n)
@@ -99,14 +99,18 @@ RSI＝[上升平均数÷(上升平均数＋下跌平均数)]×100
   4.股价一底比一底低，而％BB一底比一底高时，暗示股价将反转上涨。
   5.布林极限宽压缩至6％至8％间时，股价趋势随时会大变动，展开新的趋势行情。（实际市场中，个股的极限压缩值皆不同，应审查过去的历史数据，视其经常性的低点位置，自行修正极限压缩值）
 
-##### [布林线宽指标(BB Band指标)](http://wiki.mbalib.com/wiki/%E5%B8%83%E6%9E%97%E7%BA%BF%E5%AE%BD%E6%8C%87%E6%A0%87)
+##### [1.3 布林线宽指标(BB Band指标)](http://wiki.mbalib.com/wiki/%E5%B8%83%E6%9E%97%E7%BA%BF%E5%AE%BD%E6%8C%87%E6%A0%87)
 布林线宽指标（BB Band指标）又称为布林带宽指标，是由布林线演化出来的, 它把布林线中轨到上轨或下轨的距离作为一个指标画成线
 
 #### 波动率相关文章
 [标准差 WIKI](https://zh.wikipedia.org/wiki/%E6%A8%99%E6%BA%96%E5%B7%AE)
+
 [关于多种波动率计算方法的讨论](https://www.zhihu.com/question/19770602)
+
 [SD和ATR的讨论](https://xueqiu.com/8287840120/66581287)
+
 [波动率因子分析](https://www.ricequant.com/community/topic/4185/)
+
 [实证干货：ATR是一个更好的趋势确认指标吗](https://wallstreetcn.com/articles/250206)
 
 #### [乖离率(bias)](https://zh.wikipedia.org/wiki/%E4%B9%96%E9%9B%A2%E7%8E%87)
@@ -121,7 +125,7 @@ RSI＝[上升平均数÷(上升平均数＋下跌平均数)]×100
 标准差(σ)
 
 
-### 市场广度类指标
+### F 市场广度类指标
 #### 涨跌指数(腾落指标, ADL)
 股票每天上涨或下跌之家数
 类似的还有ADR 腾落比例
@@ -133,9 +137,8 @@ N日内上涨家数移动总和－N日内下跌家数移动总和
 阿姆氏指标(TRIN)
 麦克连指标
 
-### 其它类指标
+### G 其它类指标
 估波曲线、UI指数
-
 
 #### Sharpe Ratio(夏普比率)
 (预期报酬率 - 无风险利率) / 标准差
