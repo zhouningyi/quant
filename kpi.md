@@ -2,14 +2,14 @@
 ### [平均类指标](http://wiki.mbalib.com/wiki/Category:%E5%B9%B3%E5%9D%87%E6%8C%87%E6%A0%87)
 
 
-### 支撑和阻挡类
+### 支撑和阻挡类指标
 [斐波那契回调](https://zh.wikipedia.org/wiki/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%9B%9E%E8%B0%83)
 
 转折点(PP)
 顶部
 
 
-### 市场趋势
+### 市场趋势类指标
 平均趋向指数(A.D.X.)
 顺势指标(CCI)
 非趋势价格指标(DPO)
@@ -26,7 +26,7 @@ Vortex指标 (VI)
 
 ### 动量类指标
 
-#### 1.[动量指标(Momentom Index)]((http://wiki.mbalib.com/wiki/%E5%8A%A8%E9%87%8F%E6%8C%87%E6%A0%87)
+#### 1.[动量指标(Momentom Index)](http://wiki.mbalib.com/wiki/%E5%8A%A8%E9%87%8F%E6%8C%87%E6%A0%87)
 MTM＝C－Cn
 其中：C为当日收市价，Cn为N日前收市价，N为设定参数，一般选设10日，亦可在6日至14日之间选择。
 
@@ -50,7 +50,7 @@ MTM＝C－Cn
 4. 当OBV线呈缓慢下降而股价也同步下跌时，表示行情逐步盘跌，股市中长期投资形势不佳，股价仍有下跌空间，投资者应以卖出股票或持币观望为主。
 
 
-### 4.现金流指数(MFI)
+#### 现金流指数(MFI)
 
 #### [相对强弱指标(RSI)](https://zh.wikipedia.org/wiki/%E7%9B%B8%E5%B0%8D%E5%BC%B7%E5%BC%B1%E6%8C%87%E6%95%B8)
 RSI＝[上升平均数÷(上升平均数＋下跌平均数)]×100
@@ -67,10 +67,13 @@ RSI＝[上升平均数÷(上升平均数＋下跌平均数)]×100
 当股价趋势下跌时，当日收盘价会倾向接近当日价格波动的最低价
 
 #### [威廉指标（Williams %R）](https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%E6%8C%87%E6%A8%99)
-4、交易量
+
+
+### 交易量类指标
 累积/派发线、简易波动指标(EMV)、强力指数(FI)、负交易量指数(NVI)、能量潮(OBV)、卖权-买权比率(PCR)、量价曲线 (VPT)
 
-### 波动性
+### 波动性类指标
+
 #### [布林带(BB, BOLL, Bolinger Bands)](http://wiki.mbalib.com/wiki/%E5%B8%83%E6%9E%97%E7%BA%BF%E6%8C%87%E6%A0%87)
 中轨线=N日的移动平均线
 上轨线=中轨线＋k倍的标准差
@@ -85,10 +88,26 @@ RSI＝[上升平均数÷(上升平均数＋下跌平均数)]×100
 
 ##### [布林极限（%BB）](http://wiki.mbalib.com/wiki/%E5%B8%83%E6%9E%97%E6%9E%81%E9%99%90)
 布林极限（%BB）由布林线衍生而来的，辅助布林线研判买卖信号的可靠性。
+  1. ％BB=（close-lower band）÷（upper band-lower band）
+  2. Band width=（upper band-lower band）÷average(n)
+  3. 一般采用20天的参数
+
+  应用法则
+  1.％BB＞100时，代表股价超越布林线上限。
+  2.％BB＜0时，代表股价超越布林线下限。
+  3.股价一顶比一顶高，而％BB一顶比一顶低时，暗示股价将反转下跌。
+  4.股价一底比一底低，而％BB一底比一底高时，暗示股价将反转上涨。
+  5.布林极限宽压缩至6％至8％间时，股价趋势随时会大变动，展开新的趋势行情。（实际市场中，个股的极限压缩值皆不同，应审查过去的历史数据，视其经常性的低点位置，自行修正极限压缩值）
 
 ##### [布林线宽指标(BB Band指标)](http://wiki.mbalib.com/wiki/%E5%B8%83%E6%9E%97%E7%BA%BF%E5%AE%BD%E6%8C%87%E6%A0%87)
 布林线宽指标（BB Band指标）又称为布林带宽指标，是由布林线演化出来的, 它把布林线中轨到上轨或下轨的距离作为一个指标画成线
 
+#### 波动率相关文章
+[标准差 WIKI](https://zh.wikipedia.org/wiki/%E6%A8%99%E6%BA%96%E5%B7%AE)
+[关于多种波动率计算方法的讨论](https://www.zhihu.com/question/19770602)
+[SD和ATR的讨论](https://xueqiu.com/8287840120/66581287)
+[波动率因子分析](https://www.ricequant.com/community/topic/4185/)
+[实证干货：ATR是一个更好的趋势确认指标吗](https://wallstreetcn.com/articles/250206)
 
 #### [乖离率(bias)](https://zh.wikipedia.org/wiki/%E4%B9%96%E9%9B%A2%E7%8E%87)
 股票收盘价和移动平均线的差距
@@ -102,7 +121,7 @@ RSI＝[上升平均数÷(上升平均数＋下跌平均数)]×100
 标准差(σ)
 
 
-### 市场广度
+### 市场广度类指标
 #### 涨跌指数(腾落指标, ADL)
 股票每天上涨或下跌之家数
 类似的还有ADR 腾落比例
@@ -114,16 +133,10 @@ N日内上涨家数移动总和－N日内下跌家数移动总和
 阿姆氏指标(TRIN)
 麦克连指标
 
-7、其它: 
+### 其它类指标
 估波曲线、UI指数
 
 
 #### Sharpe Ratio(夏普比率)
 (预期报酬率 - 无风险利率) / 标准差
 
-### 波动率相关
-[标准差 WIKI](https://zh.wikipedia.org/wiki/%E6%A8%99%E6%BA%96%E5%B7%AE)
-[关于多种波动率计算方法的讨论](https://www.zhihu.com/question/19770602)
-[SD和ATR的讨论](https://xueqiu.com/8287840120/66581287)
-[波动率因子分析](https://www.ricequant.com/community/topic/4185/)
-[实证干货：ATR是一个更好的趋势确认指标吗](https://wallstreetcn.com/articles/250206)
