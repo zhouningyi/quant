@@ -1,5 +1,5 @@
 
-### A [平均类指标](http://wiki.mbalib.com/wiki/Category:%E5%B9%B3%E5%9D%87%E6%8C%87%E6%A0%87)
+### [A 平均类指标](http://wiki.mbalib.com/wiki/Category:%E5%B9%B3%E5%9D%87%E6%8C%87%E6%A0%87)
 
 
 ### B 支撑和阻挡类指标
